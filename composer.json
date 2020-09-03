@@ -1,0 +1,37 @@
+{
+  "name": "mrbenosborne/super-collection",
+  "description": "Enhances the Collection class provided by Laravel.",
+  "keywords": [
+    "laravel",
+    "collection"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Osborne",
+      "email": "hello@benosborne.io"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.5|^6|^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SuperCollection\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SuperCollection\\ServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "5.5.x",
+    "phpunit/phpunit": "9.3.x"
+  }
+}
