@@ -7,9 +7,11 @@ Enhances the Collection class provided by Laravel.
 composer require mrbenosborne/super-collection
 ```
 
-# Methods
+# Documentation
 
-## CSV File
+## Methods
+
+### CSV File
 Create a Collection from a CSV file.
 
 ```php
